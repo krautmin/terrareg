@@ -414,6 +414,10 @@ class Server(BaseHandler):
             '/v1/terrareg/modules/<string:namespace>/<string:name>/<string:provider>/hooks/github'
         )
         self._api.add_resource(
+            ApiModuleVersionCreateGitLabHook,
+            '/v1/terrareg/modules/<string:namespace>/<string:name>/<string:provider>/hooks/gitlab'
+        )
+        self._api.add_resource(
             ApiTerraregModuleVersionVariableTemplate,
             '/v1/terrareg/modules/<string:namespace>/<string:name>/<string:provider>/<string:version>/variable_template'
         )
