@@ -5,6 +5,7 @@ from .module_provider_downloads_summary import ApiModuleProviderDownloadsSummary
 from .module_search import ApiModuleSearch
 from .module_version_create_bitbucket_hook import ApiModuleVersionCreateBitBucketHook
 from .module_version_create_github_hook import ApiModuleVersionCreateGitHubHook
+from .module_version_create_gitlab_hook import ApiModuleVersionCreateGitLabHook
 from .module_version_create import ApiModuleVersionCreate
 from .module_version_import import ApiModuleVersionImport
 from .module_version_details import ApiModuleVersionDetails
